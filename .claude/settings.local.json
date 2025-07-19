@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:vercel.com)",
+      "Bash(hugo:*)",
+      "Bash(brew install:*)",
+      "Bash(curl:*)"
+    ],
+    "deny": []
+  }
+}
