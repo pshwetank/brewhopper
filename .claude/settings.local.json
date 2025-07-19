@@ -5,7 +5,8 @@
       "WebFetch(domain:vercel.com)",
       "Bash(hugo:*)",
       "Bash(brew install:*)",
-      "Bash(curl:*)"
+      "Bash(curl:*)",
+      "Bash(cp:*)"
     ],
     "deny": []
   }

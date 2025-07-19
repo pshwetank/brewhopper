@@ -1,4 +1,0 @@
-baseURL = 'https://brewhopper.vercel.app/'
-languageCode = 'en-us'
-title = 'BrewHopper'
-theme = 'magnolia'
