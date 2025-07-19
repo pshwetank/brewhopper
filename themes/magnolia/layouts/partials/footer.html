@@ -51,10 +51,11 @@
             {{ .Site.Params.footer.extraDescription2 }}
           </div>
 
-          {{if .Site.Params.schedules.enabledFooter }} {{range
-          .Site.Params.schedules.days}}
-          <div class="fw-light my-2">{{.}}</div>
-          {{end}} {{end}}
+          {{ if .Site.Params.schedules.enabledFooter }}
+            {{ range .Site.Params.schedules.days }}
+              <div class="fw-light my-2">{{ . }}</div>
+            {{ end }}
+          {{ end }}
         </div>
         <!-- Grid column 3-->
         {{ if .Site.Params.footer.contacts.enabled }}
@@ -124,8 +125,8 @@
 
   <!-- JavaScript and dependencies -->
 
-  {{ $bootstrap := resources.Get "js/bootstrap.bundle.min.js" }} {{ $js := slice
-  $bootstrap | resources.Concat "js/bundle.js" | resources.Minify }}
+  {{ $bootstrap := resources.Get "js/bootstrap.bundle.min.js" }}
+  {{ $js := slice $bootstrap | resources.Concat "js/bundle.js" | resources.Minify }}
 
   <script src="{{$js.RelPermalink}}" defer></script>
 </footer>
