@@ -3,7 +3,7 @@ languageCode = 'en-US'
 languageName = 'English'
 title = 'BrewHopper' # This will go in the Header as well
 copyright = """Designed with [Hugo](https://gohugo.io/) by [Ludovico Caluori](https://github.com/ololiuhqui) 🎨 \n
- Licensed under [MIT license](https://github.com/ololiuhqui/magnolia-free-hugo-theme/blob/main/LICENSE.md) 📄""" # Please leave this here to give me and the tools i used some credit for the work, or BuyMeACoffee and change or remove the copyrightlink below :)
+ Licensed under [MIT license](https://github.com/ololiuhqui/magnolia-free-hugo-theme/blob/main/LICENSE.md) 📄"""
 contentDir = "content/en"
 
 
@@ -19,14 +19,10 @@ contentDir = "content/en"
     title = "BrewHopper"
     # You can use some markdown safely here as long as you don't include line breaks
     intro= """
-### "Hey, I think I’ll keep you around. You’ve got a way with a coffee bean." - Blonde(Route 66)
+### "Hey, I think I’ll keep you around. You’ve got a way with a coffee bean." - Blonde (Route 66)
 ___
 
-**A simple, completely customizable, multilingual Hugo theme thought for professionals and small businesses.**
-
 I built this theme with simplicity in mind, it is small and easily **customizable, responsive, modular and multilingual**. But it also leaves some space to further in-depth customization since it uses **Bootstrap** and **SCSS**.
-
-Here there's the [theme github page](https://github.com/ololiuhqui/magnolia-free-hugo-theme), to which you should refer if you seek for more details, make sure to star the repo!
 
 Look at what this theme is capable to do on the features page, and see a beautiful contacts page example below.
         """
@@ -144,13 +140,13 @@ Look at what this theme is capable to do on the features page, and see a beautif
   weight = 1
   [[menus.main]]
   name = "Features"
-  pageRef = "pages/services"
+  pageRef = "services"
   weight = 2
   [[menus.main]]
   name = "The Office"
-  pageRef = "pages/office"
+  pageRef = "office"
   weight = 3
   [[menus.main]]
   name = "Contacts"
-  pageRef = "pages/contacts"
+  pageRef = "contacts"
   weight = 4

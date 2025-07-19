@@ -134,13 +134,13 @@ Guardate cosa è in grado di fare questo tema nella pagina delle caratteristiche
   weight = 1
   [[menus.main]]
   name = "caratteristiche"
-  pageRef = "pages/services"
+  pageRef = "services"
   weight = 2
   [[menus.main]]
   name = "Uffici"
-  pageRef = "pages/office"
+  pageRef = "office"
   weight = 3
   [[menus.main]]
   name = "Contatti"
-  pageRef = "pages/contacts"
+  pageRef = "contacts"
   weight = 4
