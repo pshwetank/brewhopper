@@ -3,13 +3,11 @@
 <div class="row gx-5 gy-3 mb-5">
   <div class="col-lg-4">
     <!-- profile picture-->
-    {{ with .Resources.GetMatch "main*" }}
     <img
       class="rounded profile-img img-fluid shadow"
-      src="{{.RelPermalink}}"
+      src="profile.webp"
       alt="Main image"
     />
-    {{end}}
   </div>
 
   <div class="col-lg-8">
@@ -71,4 +69,4 @@
 {{end}}
 
 <!--  -->
-{{- end -}}
+ {{- end -}}

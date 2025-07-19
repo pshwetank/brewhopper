@@ -2,28 +2,183 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://brewhopper.vercel.app/</loc>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-10-03T11:16:02+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it-IT"
-                href="https://brewhopper.vercel.app/it/"
+                href="http://localhost:1313/it/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://brewhopper.vercel.app/"
+                href="http://localhost:1313/"
                 />
   </url><url>
-    <loc>https://brewhopper.vercel.app/tags/</loc>
+    <loc>http://localhost:1313/tags/foss/</loc>
+    <lastmod>2024-10-03T11:16:02+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it-IT"
-                href="https://brewhopper.vercel.app/it/tags/"
+                href="http://localhost:1313/it/tags/software-libero/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://brewhopper.vercel.app/tags/"
+                href="http://localhost:1313/tags/foss/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tags/growing/</loc>
+    <lastmod>2024-10-03T11:16:02+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it-IT"
+                href="http://localhost:1313/it/tags/far-crescere/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/tags/growing/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tags/planting/</loc>
+    <lastmod>2024-10-03T11:16:02+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it-IT"
+                href="http://localhost:1313/it/tags/piantare/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/tags/planting/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2024-10-03T11:16:02+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it-IT"
+                href="http://localhost:1313/it/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/posts/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/posts/why-donating-to-free-and-opensource-software-projects-is-important/</loc>
+    <lastmod>2024-10-03T11:16:02+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it-IT"
+                href="http://localhost:1313/it/posts/perch%C3%A9-donare-a-progetti-di-software-opensource-%C3%A8-importante/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/posts/why-donating-to-free-and-opensource-software-projects-is-important/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tags/flowers/</loc>
+    <lastmod>2024-10-03T10:49:18+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it-IT"
+                href="http://localhost:1313/it/tags/fiori/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/tags/flowers/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/posts/more-flowers/</loc>
+    <lastmod>2024-10-03T10:49:18+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it-IT"
+                href="http://localhost:1313/it/posts/piu-fiori/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/posts/more-flowers/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/posts/flowers-again/</loc>
+    <lastmod>2024-10-01T10:49:18+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it-IT"
+                href="http://localhost:1313/it/posts/fiori-di-nuovo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/posts/flowers-again/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/posts/a-poem-about-flowers/</loc>
+    <lastmod>2024-09-28T12:10:50+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it-IT"
+                href="http://localhost:1313/it/posts/una-poesia-sui-fiori/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/posts/a-poem-about-flowers/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tags/no-image/</loc>
+    <lastmod>2024-09-28T12:10:50+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it-IT"
+                href="http://localhost:1313/it/tags/no-image/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/tags/no-image/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/contacts/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it-IT"
+                href="http://localhost:1313/contatti/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/contacts/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/features/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it-IT"
+                href="http://localhost:1313/caratteristiche/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/features/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/office/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it-IT"
+                href="http://localhost:1313/ufficio/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/office/"
                 />
   </url>
 </urlset>

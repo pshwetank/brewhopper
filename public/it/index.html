@@ -1,9 +1,9 @@
 <!doctype html>
 <html><head>
-	<meta name="generator" content="Hugo 0.148.1">
+	<meta name="generator" content="Hugo 0.148.1"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   
     <title>
-      Magnolia
+      
       Magnolia
       Free Hugo theme
     </title>
@@ -12,11 +12,11 @@
   <meta
     name="description"
     
-      content=""
+      content="Un tema Hugo gratuito"
     
   />
 
-  <meta name="dc.relation" content="https://brewhopper.vercel.app/" />
+  <meta name="dc.relation" content="http://localhost:1313/" />
 
   <meta name="robots" content="index,follow" />
   
@@ -25,12 +25,12 @@
   
   <meta
     itemprop="name"
-    content="Magnolia Magnolia Free Hugo theme"
+    content=" Magnolia Free Hugo theme"
   />
   <meta
     itemprop="description"
     
-      content=""
+      content="Un tema Hugo gratuito"
     
   />
 
@@ -38,28 +38,28 @@
   
     <meta
       itemprop="image"
-      content="https://brewhopper.vercel.app/img/meta-image.webp"
+      content="http://localhost:1313/img/meta-image.webp"
     />
   
 
 
   
-  <meta property="og:url" content="https://brewhopper.vercel.app/it/" />
+  <meta property="og:url" content="http://localhost:1313/it/" />
   <meta property="og:type" content="website" />
   <meta
     property="og:title"
-    content="Magnolia Magnolia Free Hugo theme"
+    content=" Magnolia Free Hugo theme"
   />
   <meta
     property="og:description"
     
-      content=""
+      content="Un tema Hugo gratuito"
     
   />
   
     <meta
       property="og:image"
-      content="https://brewhopper.vercel.app/img/meta-image.webp"
+      content="http://localhost:1313/img/meta-image.webp"
     />
   
 
@@ -68,18 +68,18 @@
   <meta name="twitter:card" content="summary_large_image" />
   <meta
     name="twitter:title"
-    content="Magnolia Magnolia Free Hugo theme"
+    content=" Magnolia Free Hugo theme"
   />
   <meta
     name="twitter:description"
     
-      content=""
+      content="Un tema Hugo gratuito"
     
   />
   
     <meta
       name="twitter:image"
-      content="https://brewhopper.vercel.app/img/meta-image.webp"
+      content="http://localhost:1313/img/meta-image.webp"
     />
   
 
@@ -116,7 +116,7 @@
 <header class="shadow-sm sticky-lg-top" style="z-index: 10000;">
   <nav class="navbar navbar-expand-lg navbar-light py-3">
     <div class="container px-5">
-      <a class="navbar-brand" href="https://brewhopper.vercel.app/it/"
+      <a class="navbar-brand" href="http://localhost:1313/it/"
         >
         <span class="fw-bolder"
           >Magnolia <br />
@@ -145,15 +145,15 @@
           </li>
           
           <li class="nav-item">
-            <a class="nav-link nav-menu text-nowrap" href="">caratteristiche</a>
+            <a class="nav-link nav-menu text-nowrap" href="/caratteristiche/">caratteristiche</a>
           </li>
           
           <li class="nav-item">
-            <a class="nav-link nav-menu text-nowrap" href="">Uffici</a>
+            <a class="nav-link nav-menu text-nowrap" href="/ufficio/">Uffici</a>
           </li>
           
           <li class="nav-item">
-            <a class="nav-link nav-menu text-nowrap" href="">Contatti</a>
+            <a class="nav-link nav-menu text-nowrap" href="/contatti/">Contatti</a>
           </li>
           
           <li class="vr ms-1 d-none d-lg-block"></li>
@@ -179,7 +179,7 @@
               
               
               
-              <a class="dropdown-item nav-item nav-link nav-trad text-center" href="https://brewhopper.vercel.app/">
+              <a class="dropdown-item nav-item nav-link nav-trad text-center" href="http://localhost:1313/">
                 English
               </a>
               
@@ -198,7 +198,11 @@
         <div class="container"><div class="row gx-5 gy-3 mb-5">
   <div class="col-lg-4">
     
-    
+    <img
+      class="rounded profile-img img-fluid shadow"
+      src="profile.webp"
+      alt="Main image"
+    />
   </div>
 
   <div class="col-lg-8">
@@ -242,10 +246,332 @@
 </div>
 
 
-<div class="mt-5 align-items-center"></div>
+<div class="mt-5 align-items-center"><h1 style="text-align: center;">Come usare questo tema</h1>
+<h2 id="avvio-rapido-come-si-installa-">Avvio rapido: come si installa 📥</h2>
+<ol>
+<li>Installate hugo extended, seguendo <a href="https://gohugo.io/installation/">la guida ufficiale all&rsquo;installazione</a>. Per l&rsquo;utilizzo di questo tema non è necessario eseguire <code>hugo new site</code>, in quanto si clonerà un sito di esempio nel passaggio 2.</li>
+<li>Ottenere <a href="https://github.com/ololiuhqui/magnolia-free-hugo-theme/releases/latest">l&rsquo;ultima versione del sito di esempio</a>. Scaricate l&rsquo;archivio denominato sito di esempio, che verrà automaticamente fornito con una versione compatibile del tema magnolia.</li>
+<li>Le configurazioni del sito si trovano in <code>config/_default</code>. Il file di configurazione principale è <code>config/_default/config.toml</code>, ma la maggior parte delle variabili sono sovrascritte o definite dai file di configurazione delle singole lingue (ad esempio, <code>config/_default/languages/.en.toml</code>).</li>
+<li>Spostarsi nella directory del sito e vedere l&rsquo;anteprima del sito con <code>hugo serve -D</code>.</li>
+</ol>
+<h2 id="come-aggiornare-">Come aggiornare ♻</h2>
+<ul>
+<li>Spostarsi nella cartella del tema `cd themes/Magnolia</li>
+<li>Eseguire <code>git checkout &lt;version-tag&gt;</code>. Scegliere il tag della versione dalla <a href="https://github.com/ololiuhqui/magnolia-free-hugo-theme/releases">pagina dei rilasci</a>. Ad esempio <code>git checkout v2.0.0</code>.
+Controllare la pagina dei rilasci per assicurarsi che la nuova versione del tema sia compatibile con l&rsquo;attuale versione del sito di esempio. Fare riferimento a <a href="https://semver.org/">Semantic Versioning 2.0.0 | Semantic Versioning</a>.</li>
+</ul>
+<p>Tradotto con DeepL.com (versione gratuita)</p>
+<h2 id="come-personalizzare-">Come personalizzare 🎨</h2>
+<ul>
+<li>
+<p>Utilizzare la tavolozza di colori preferita modificando le variabili di Bootstrap in <code>assets/scss/custom-variables.scss</code>.</p>
+</li>
+<li>
+<p>Modificare i file di configurazione in <code>/config/_default</code> e <code>/config/_default/languages</code> aggiungendo i propri elementi alle pagine. È possibile cambiare anche i nomi delle pagine.</p>
+</li>
+<li>
+<p>Modificare il contenuto della homepage in <code>content/&lt;language&gt;/_index.html</code>, con il supporto di markdown.</p>
+</li>
+<li>
+<p>Modificare i nomi delle pagine, gli slug e le metadescrizioni in <code>content/&lt;language&gt;/pages/&lt;page&gt;/index.html</code>.</p>
+</li>
+<li>
+<p>Modificare le immagini del sito web dalle cartelle <code>content/&lt;language&gt;/pages/&lt;page&gt;/&lt;image&gt;</code> (le pagine e i post usano <a href="https://gohugo.io/content-management/page-bundles/">Page bundles</a>).</p>
+</li>
+<li>
+<p>Aggiungere la propria favicon, lo sfondo e la meta-immagine predefinita (l&rsquo;immagine usata per il SEO) in <code>assets/img</code>. Questi file possono essere di qualsiasi estensione, ma devono avere lo stesso nome di quelli attualmente presenti nella cartella degli asset del sito di esempio.</p>
+</li>
+</ul>
+<h2 id="come-gestire-i-post-">Come gestire i post ✏️</h2>
+<h3 id="abilitadisabilita-il-blog">Abilita/Disabilita il blog</h3>
+<p><em>Aspetta, mi avevi detto che questo tema era adatto ai noob, non voglio avere a che fare con tutta la roba del blog!</em><br/>
+<em>Ho bisogno di una semplice landing page e tutte queste funzioni del blog non mi interessano!</em></p>
+<p><strong>Se non avete bisogno di post, potete disabilitare completamente la parte blog del tema dai file di configurazione e usare Magnolia come semplice landing page</strong>.</p>
+<ul>
+<li>Per disabilitare il rendering e l&rsquo;indicizzazione di <em>tags only</em> per l&rsquo;intero sito -&gt; <code>config.toml</code> scommentare <code>#disableKinds = ['taxonomy', 'term']</code>.</li>
+<li>Per disabilitare il rendering e l&rsquo;indicizzazione di <em>post e tag</em> per l&rsquo;intero sito -&gt; <code>config.toml</code> scommentare <code>#disableKinds = ['taxonomy', 'term']</code> e <code>#ignoreFiles= ['posts/*']</code>.</li>
+</ul>
+<h3 id="organizzazione-del-contenuto">Organizzazione del contenuto</h3>
+<p>La cartella <code>/content</code> contiene diversi tipi di contenuti; l&rsquo;organizzazione dei contenuti imita la struttura del sito.</p>
+<pre tabindex="0"><code>content
+├── en
+│   ├── _index.md
+│   ├── pages
+│   ├── posts
+│   ├── profile.webp
+│   └── tags
+└── it
+    ├── _index.md
+    ├── pages
+    ├── posts
+    ├── profile.webp
+    └── tags
+</code></pre><p>Per ogni lingua, ci si troverà di fronte alla homepage <code>_index.md</code> e all&rsquo;immagine utilizzata per la sezione di presentazione della homepage (<code>profile.webp</code>). Le altre directory conterranno esattamente ciò che ci si aspetta.</p>
+<p><code>pages</code>= normali pagine del sito (ufficio, servizi, ecc.).
+<code>posts</code>= messaggi del sito.
+<code>tags</code> = tag personalizzati.</p>
+<h4 id="post">Post</h4>
+<ul>
+<li>Creare un nuovo post con: <code>hugo new --kind post-bundle content/&lt;lang&gt;/posts/&lt;nome-post&gt;</code>. Questa sarà la sua struttura molto semplice:</li>
+</ul>
+<pre tabindex="0"><code>content/en/posts
+├── a-poem-about-flowers
+│   ├── images
+│   │   └── featured.jpg
+│   └── index.md
+</code></pre><ul>
+<li>
+<p>Modificare i metadati in <code>index.md</code> e aggiungere il contenuto del post.</p>
+</li>
+<li>
+<p>Aggiungere un&rsquo;immagine in evidenza al post, inserendo il segnaposto <code>featured.webp</code> in <code>/images</code>. L&rsquo;immagine in evidenza deve essere chiamata &ldquo;featured&rdquo;, ma può essere di qualsiasi estensione. Se si desidera, è possibile rimuovere il segnaposto per avere un post di solo testo.</p>
+</li>
+</ul>
+<h4 id="tags">Tags</h4>
+<ol>
+<li>
+<p>Un&rsquo;opzione è quella di creare automaticamente i tag aggiungendoli ai frontespizi dei post.</p>
+</li>
+<li>
+<p>La seconda opzione è creare un nuovo tag con: <code>hugo new --kind tag content/&lt;lang&gt;/tags/&lt;nome-tag&gt;</code>. La creazione di tag in questo modo consentirà una manipolazione più fine, si possono tradurre i tag dando la stessa translationKey nel frontmatter in ogni lingua diversa. In questo modo i post saranno ordinati nello stesso modo per ogni lingua e le traduzioni delle pagine dei tag saranno disponibili.</p>
+</li>
+</ol>
+<pre tabindex="0"><code>content/it/tags
+├── fiori
+│ └── _index.md
+</code></pre><p>Per ulteriori informazioni sull&rsquo;organizzazione dei contenuti, fare riferimento a <a href="https://gohugo.io/content-management/organization/">Organizzazione dei contenuti | Hugo</a>.</p>
+<h2 id="aggiungere-nuove-lingue-">Aggiungere nuove lingue 🚩</h2>
+<ol>
+<li>Andare a <code>config/_default/languages</code>.</li>
+<li>Duplicare uno dei file di lingua, cambiare il tag della lingua e il nome del file (en, it, fr ecc.): questo dovrebbe essere conforme a <a href="https://gohugo.io/content-management/multilingual/">RFC 5646</a>. Per una configurazione più rapida, utilizzare <a href="https://gist.github.com/msikma/8912e62ed866778ff8cd">RFC 5646 Language Tags List</a>.</li>
+<li>Tradurre i valori delle variabili all&rsquo;interno del file <code>.toml</code> in base alla lingua.</li>
+<li>Nella cartella <code>/content</code>, duplicare una delle cartelle delle lingue e cambiarne il nome in base alla nuova lingua, come indicato al punto 2.</li>
+<li>Per ogni file <code>.html</code> in <code>/content/pages</code>, è possibile modificare liberamente <code>title</code> e <code>slug</code>. La <code>translationKey</code> deve rimanere intatta o deve essere modificata in ogni file di pagina in lingua. Suggerisco vivamente di tradurre il SEO anche qui.</li>
+<li>Per ogni file <code>.md</code> in <code>content/posts/&lt;my-post&gt;</code> traducete il contenuto e i valori di frontmatter di cui avete bisogno (es. <em>summary</em>).</li>
+</ol>
+<h2 id="pagina-404-personalizzata">Pagina 404 personalizzata</h2>
+<p>Per aggiungere la pagina 404 personalizzata e farla funzionare sulle pagine di github, è necessario aggiungerla manualmente durante la costruzione del sito eseguendo <code>hugo</code>. Questo perché github pages cerca un modello 404 nella cartella principale del progetto, quindi è possibile avere una sola pagina 404 per tutte le lingue. Per creare un link simbolico alla versione 404 inglese, che sarà poi usata come 404 predefinita una volta ospitata, dopo aver eseguito <code>hugo</code> eseguire <code>ln -s public/en/404/index.html public/404.html</code>.</p>
+<h3 id="remunera-il-mio-tempo-e-le-mie-energie-">Remunera il mio tempo e le mie energie 💫</h3>
+<p><img src="https://img.shields.io/liberapay/receives/ololiuhqui" alt="Ricezione Liberapay">
+<img src="https://img.shields.io/github/sponsors/ololiuhqui" alt="Sponsor GitHub"></p>
+<p>Progettare questo tema e renderlo disponibile per voi ha richiesto molto tempo e impegno.</p>
+<p>La licenza MIT significa che siete completamente liberi di fare tutto ciò che volete con questo tema, anche <a href="https://opensource.org/license/MIT">guadagnarci sopra!</a></p>
+<p>Se lo desiderate, potete supportarmi in diversi modi.</p>
+<p><strong><a href="/it/posts/perch%C3%A9-donare-a-progetti-di-software-opensource-%C3%A8-importante/">Perché mai dovresti farlo?</a></strong></p>
+</div>
 
 
 
+
+
+<hr />
+<h2 class="text-center my-4">Storie interessanti</h2>
+
+
+<div class="row g-3 mb-3">
+  
+
+  <div class="col-12 col-md-6 ">
+    <div class="card p-0 bg-secondary shadow-sm border-none h-100" >
+        <div class="row h-100" >
+          
+          <div class="col-4 h-100 ">
+            <div class="position-relative h-100">
+              <img
+              class="card-img h-100 w-100 object-fit-cover "
+              src="/it/posts/perch%C3%A9-donare-a-progetti-di-software-opensource-%C3%A8-importante/images/featured.jpg"
+              alt="post image (replace in `content` or remove it)"
+            />
+            <div class="h-100 w-100 position-absolute top-0 left-0 dark-overlay bg-dark"></div>
+            </div>
+              
+          </div>
+          
+          <div class="col h-100">
+            <div class="card-body h-100 d-flex flex-column  justify-content-between">
+              <div>
+                <h5 class="card-title">
+                  <a href="/it/posts/perch%C3%A9-donare-a-progetti-di-software-opensource-%C3%A8-importante/">Perché Donare a Progetti Di Software Opensource È Importante</a>
+                  
+                </h5>
+                <p class="card-text my-0"><small class="text-body-secondary">4 ottobre , 2024</small></p>
+                
+                
+                <a href="/it/tags/piantare/" class="btn btn-sm btn-secondary border-primary mb-2">Piantare</a>
+                
+                <a href="/it/tags/far-crescere/" class="btn btn-sm btn-secondary border-primary mb-2">Far Crescere</a>
+                
+                <a href="/it/tags/software-libero/" class="btn btn-sm btn-secondary border-primary mb-2">Software Libero</a>
+                
+                
+              </div>
+              <div class="card-text d-none d-lg-block">VII. SOCIAL Nonostante le sue numerose tendenze disumanizzanti, i media digitali sono ancora orientati verso il sociale. Nella continua coevoluzione tra persone e tecnologie, gli strumenti che ci connettono prosperano e quelli che non ci connettono imparano presto a farlo. Dobbiamo ricordare che la tendenza dei media digitali è quella di entrare in contatto con altre persone, non con i loro contenuti o, peggio, con il loro denaro. Se non lo facciamo, rischiamo di privarci del principale dono che la tecnologia digitale ha da offrirci in cambio del fatto che l&rsquo;abbiamo creata.
+</div>
+              <div>
+                <p class="card-text"></p>
+                <small class="">5 minutes read</small>
+              </p>
+              <a href="/it/posts/perch%C3%A9-donare-a-progetti-di-software-opensource-%C3%A8-importante/" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>    
+</div>
+
+
+  <div class="col-12 col-md-6 ">
+    <div class="card p-0 bg-secondary shadow-sm border-none h-100" >
+        <div class="row h-100" >
+          
+          <div class="col-4 h-100 ">
+            <div class="position-relative h-100">
+              <img
+              class="card-img h-100 w-100 object-fit-cover "
+              src="/posts/more-flowers/images/featured.jpg"
+              alt="post image (replace in `content` or remove it)"
+            />
+            <div class="h-100 w-100 position-absolute top-0 left-0 dark-overlay bg-dark"></div>
+            </div>
+              
+          </div>
+          
+          <div class="col h-100">
+            <div class="card-body h-100 d-flex flex-column  justify-content-between">
+              <div>
+                <h5 class="card-title">
+                  <a href="/it/posts/piu-fiori/">Più Fiori</a>
+                  
+                </h5>
+                <p class="card-text my-0"><small class="text-body-secondary">3 ottobre , 2024</small></p>
+                
+                
+                <a href="/it/tags/fiori/" class="btn btn-sm btn-secondary border-primary mb-2">Fiori</a>
+                
+                <a href="/it/tags/far-crescere/" class="btn btn-sm btn-secondary border-primary mb-2">Far Crescere</a>
+                
+                
+              </div>
+              <div class="card-text d-none d-lg-block">Sono incredibilmente belli, non è vero? Beh, certo che lo sono!
+Ho scritto questo riassunto a mano, puoi farlo anche tu nel file content/posts/&lt;nome-post&gt;/index.md! Ma non preoccuparti, se non scrivi un riassunto tu stesso, il tema lo prenderà automaticamente dal contenuto del post! E lo includerà anche nel SEO!
+</div>
+              <div>
+                <p class="card-text"></p>
+                <small class="">1 minutes read</small>
+              </p>
+              <a href="/it/posts/piu-fiori/" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>    
+</div>
+
+
+  <div class="col-12 col-md-6 ">
+    <div class="card p-0 bg-secondary shadow-sm border-none h-100" >
+        <div class="row h-100" >
+          
+          <div class="col-4 h-100 ">
+            <div class="position-relative h-100">
+              <img
+              class="card-img h-100 w-100 object-fit-cover "
+              src="/it/posts/fiori-di-nuovo/images/featured.jpg"
+              alt="post image (replace in `content` or remove it)"
+            />
+            <div class="h-100 w-100 position-absolute top-0 left-0 dark-overlay bg-dark"></div>
+            </div>
+              
+          </div>
+          
+          <div class="col h-100">
+            <div class="card-body h-100 d-flex flex-column  justify-content-between">
+              <div>
+                <h5 class="card-title">
+                  <a href="/it/posts/fiori-di-nuovo/">Fiori di Nuovo</a>
+                  
+                </h5>
+                <p class="card-text my-0"><small class="text-body-secondary">1 ottobre , 2024</small></p>
+                
+                
+                <a href="/it/tags/fiori/" class="btn btn-sm btn-secondary border-primary mb-2">Fiori</a>
+                
+                <a href="/it/tags/far-crescere/" class="btn btn-sm btn-secondary border-primary mb-2">Far Crescere</a>
+                
+                <a href="/it/tags/piantare/" class="btn btn-sm btn-secondary border-primary mb-2">Piantare</a>
+                
+                
+              </div>
+              <div class="card-text d-none d-lg-block">Il riassunto di questa pagina è stato lasciato vuoto, quindi è stato preso dal primo contenuto che il tema ha trovato nella pagina, che è quello che stai leggendo in questo momento!
+Una ghirlanda di lodi meritate, di lodi meritate, a Te dono, a Te, che conosci tutte le mie vie, le mie vie tortuose e tortuose, in cui vivo... in cui muoio, non vivo; perché la vita è diritta, dritta come una linea, e tende sempre a Te, A Te, che sei più al di sopra dell&#39;inganno, di quanto l&#39;inganno sembri superiore alla semplicità... Tradotto con DeepL.com (versione gratuita)
+</div>
+              <div>
+                <p class="card-text"></p>
+                <small class="">1 minutes read</small>
+              </p>
+              <a href="/it/posts/fiori-di-nuovo/" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>    
+</div>
+
+
+  <div class="col-12 col-md-6 ">
+    <div class="card p-0 bg-secondary shadow-sm border-none h-100" >
+        <div class="row h-100" >
+          
+          <div class="col-4 h-100 ">
+            <div class="position-relative h-100">
+              <img
+              class="card-img h-100 w-100 object-fit-cover "
+              src="/it/posts/una-poesia-sui-fiori/images/featured.jpg"
+              alt="post image (replace in `content` or remove it)"
+            />
+            <div class="h-100 w-100 position-absolute top-0 left-0 dark-overlay bg-dark"></div>
+            </div>
+              
+          </div>
+          
+          <div class="col h-100">
+            <div class="card-body h-100 d-flex flex-column  justify-content-between">
+              <div>
+                <h5 class="card-title">
+                  <a href="/it/posts/una-poesia-sui-fiori/">Una Poesia Sui Fiori</a>
+                  
+                </h5>
+                <p class="card-text my-0"><small class="text-body-secondary">28 settembre , 2024</small></p>
+                
+                
+                <a href="/it/tags/fiori/" class="btn btn-sm btn-secondary border-primary mb-2">Fiori</a>
+                
+                <a href="/it/tags/no-image/" class="btn btn-sm btn-secondary border-primary mb-2">No-Image</a>
+                
+                
+              </div>
+              <div class="card-text d-none d-lg-block">Il Fiore che oggi sorride Il fiore che oggi sorride domani morirà ciò che desideriamo durevole ci tenta e va via. Che cosa è la gioia del mondo? Un lampo che irride alla notte, breve come la propria luce. Nel pomeriggio di autunno il giorno diventa più solenne e sereno: c’è un’armonia e una lucentezza nel cielo che d’estate non si sente né si vede, come se non potesse esistere, come se non fosse mai esistita! Di Percy Shelley
+</div>
+              <div>
+                <p class="card-text"></p>
+                <small class="">1 minutes read</small>
+              </p>
+              <a href="/it/posts/una-poesia-sui-fiori/" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>    
+</div>
+
+</div>
+<div class="d-flex justify-content-center">
+  <a
+    class="btn btn-primary btn-lg px-5 py-3 fs-6 fw-bolder shadow-sm"
+    href="/it/posts/"
+    >More Stories</a
+  >
+</div>
 
 
 
@@ -302,15 +628,15 @@
           </p>
           
           <p>
-            <a href="" class="text-muted text-uppercase">caratteristiche</a>
+            <a href="/caratteristiche/" class="text-muted text-uppercase">caratteristiche</a>
           </p>
           
           <p>
-            <a href="" class="text-muted text-uppercase">Uffici</a>
+            <a href="/ufficio/" class="text-muted text-uppercase">Uffici</a>
           </p>
           
           <p>
-            <a href="" class="text-muted text-uppercase">Contatti</a>
+            <a href="/contatti/" class="text-muted text-uppercase">Contatti</a>
           </p>
           
         </div>

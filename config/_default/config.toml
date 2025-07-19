@@ -1,10 +1,10 @@
-baseURL = 'https://brewhopper.vercel.app/'
-languageCode = 'en-us'
+baseURL = 'https://brewhopper.vercel.dev'
+languageCode = ''
 title = 'BrewHopper' # This can get overwritten by the single language files
 defaultContentLanguage = 'en'
 # defaultContentLanguageInSubDir = true
 enableRobotsTXT = true
-theme = "magnolia"
+theme = "Magnolia"
 googleAnalytics = ""
 
 # Block AI crawlers to limit traffic
