@@ -15,7 +15,7 @@ draft: false
 
 ## Come aggiornare ♻
 
-- Spostarsi nella cartella del tema `cd themes/Magnolia
+- Spostarsi nella cartella del tema `cd themes/magnolia`
 - Eseguire `git checkout <version-tag>`. Scegliere il tag della versione dalla [pagina dei rilasci](https://github.com/ololiuhqui/magnolia-free-hugo-theme/releases). Ad esempio `git checkout v2.0.0`.
   Controllare la pagina dei rilasci per assicurarsi che la nuova versione del tema sia compatibile con l'attuale versione del sito di esempio. Fare riferimento a [Semantic Versioning 2.0.0 | Semantic Versioning](https://semver.org/).
 
@@ -42,7 +42,7 @@ Tradotto con DeepL.com (versione gratuita)
 _Aspetta, mi avevi detto che questo tema era adatto ai noob, non voglio avere a che fare con tutta la roba del blog!_<br/>
 _Ho bisogno di una semplice landing page e tutte queste funzioni del blog non mi interessano!_
 
-**Se non avete bisogno di post, potete disabilitare completamente la parte blog del tema dai file di configurazione e usare Magnolia come semplice landing page**.
+**Se non avete bisogno di post, potete disabilitare completamente la parte blog del tema dai file di configurazione e usare questo tema come semplice landing page**.
 
 - Per disabilitare il rendering e l'indicizzazione di _tags only_ per l'intero sito -> `config.toml` scommentare `#disableKinds = ['taxonomy', 'term']`.
 - Per disabilitare il rendering e l'indicizzazione di _post e tag_ per l'intero sito -> `config.toml` scommentare `#disableKinds = ['taxonomy', 'term']` e `#ignoreFiles= ['posts/*']`.

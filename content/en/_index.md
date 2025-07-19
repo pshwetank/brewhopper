@@ -18,7 +18,7 @@ draft: false
 
 ## How to update ♻
 
-- Move into the theme folder `cd themes/Magnolia`
+- Move into the theme folder `cd themes/magnolia`
 
 - Run `git checkout <version-tag>`. Choose the version tag from the [releases page](https://github.com/ololiuhqui/magnolia-free-hugo-theme/releases). e.g `git checkout v2.0.0`.
 
@@ -45,7 +45,7 @@ Please check the releases page to make sure the new version of the theme is comp
 _Wait, you told me this theme was noob friendly, I don't wanna deal with all the blog stuff!_ <br/>
 _I need a simple landing page and all this blog feature is something I don't care about!_
 
-**If you don't need posts you can disable the blog part of the theme entirely from within the config files and just use Magnolia as a simple landing site**
+**If you don't need posts you can disable the blog part of the theme entirely from within the config files and just use this theme as a simple landing site**
 
 - To disable _tags only_ rendering and indexing for the entire site -> `config.toml` uncomment `#disableKinds = ['taxonomy', 'term']`.
 - To disable _post and tags_ rendering and indexing for the entire site -> `config.toml` uncomment `#disableKinds = ['taxonomy', 'term']` and `#ignoreFiles= ['posts/*']`.

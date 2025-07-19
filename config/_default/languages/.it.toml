@@ -1,7 +1,7 @@
 disabled = false
 languageCode = 'it-IT'
 languageName = 'Italiano'
-title = 'Magnolia'
+title = 'BrewHopper'
 copyright = """Designed with [Hugo](https://gohugo.io/) by [Ludovico Caluori](https://github.com/ololiuhqui) 🎨 \n
  Licensed under [MIT license](https://github.com/ololiuhqui/magnolia-free-hugo-theme/blob/main/LICENSE.md) 📄"""
 contentDir="content/it"
@@ -13,7 +13,7 @@ contentDir="content/it"
 
   [params.homepage]
     preTitle = 'Free Hugo theme'
-    title = "Magnolia"
+    title = "BrewHopper"
     intro= """
 ### "La libertà ci rende esseri umani migliori e ci fa migliorare più velocemente il nostro status di razza collettiva ".
 ___

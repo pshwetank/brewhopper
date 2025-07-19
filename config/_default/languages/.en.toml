@@ -1,7 +1,7 @@
 disabled = false
 languageCode = 'en-US'
 languageName = 'English'
-title = 'Magnolia' # This will go in the Header as well
+title = 'BrewHopper' # This will go in the Header as well
 copyright = """Designed with [Hugo](https://gohugo.io/) by [Ludovico Caluori](https://github.com/ololiuhqui) 🎨 \n
  Licensed under [MIT license](https://github.com/ololiuhqui/magnolia-free-hugo-theme/blob/main/LICENSE.md) 📄""" # Please leave this here to give me and the tools i used some credit for the work, or BuyMeACoffee and change or remove the copyrightlink below :)
 contentDir = "content/en"
@@ -16,7 +16,7 @@ contentDir = "content/en"
     # in individual pages frontmatters `/content/<page>`
     ###
     preTitle = 'Free Hugo theme'
-    title = "Magnolia"
+    title = "BrewHopper"
     # You can use some markdown safely here as long as you don't include line breaks
     intro= """
 ### "Freedom makes us better humans, and makes us improve our status as a collective race faster."
