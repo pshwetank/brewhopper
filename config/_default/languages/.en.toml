@@ -113,17 +113,15 @@ Look at what this theme is capable to do on the features page, and see a beautif
     day7 = ""
 
 [params.footer]
-  extraDescription1 = "Straight outta Scranton city"
-  extraDescription2 = "VAT No. 0000000000"
+  extraDescription1 = ""
+  extraDescription2 = ""
   [params.footer.navigate]
   heading = "Navigate"
   [params.footer.contacts]
   enabled = true # enables/disables the whole contacts section in footer
   heading = "Contact"
-  address = "Scranton 2865 Pouros Corners 55441-0788"
-  mail = "dundermifflin@fakemail.com"
-  mail2 = "dundermifflinorders@fakemail.com"
-  phone = "+00 0000000"
+  address = "Coffee | Tea | Spirits"
+  mail = "shwetank.iitg@gmail.com"
 
 [params.notfound]
   title = "404, page not found" # text for 404 page

@@ -209,7 +209,7 @@
     <div class="text-center text-lg-start">
       <div class="badge mb-4"></div>
       <div class="fs-3 fw-light text-muted">
-        In quest of good brews
+        In search of good brews
       </div>
       <h1 class="display-1 fw-bolder">
         <span class="d-inline">BrewHopper </span>
@@ -217,7 +217,7 @@
       <p class="text-justify text-lg-start">
         <h3 id="hey-i-think-ill-keep-you-around-youve-got-a-way-with-a-coffee-bean---blonde-route-66">&ldquo;Hey, I think I’ll keep you around. You’ve got a way with a coffee bean.&rdquo; - Blonde (Route 66)</h3>
 <hr>
-<p>I built this theme with simplicity in mind, it is small and easily <strong>customizable, responsive, modular and multilingual</strong>. But it also leaves some space to further in-depth customization since it uses <strong>Bootstrap</strong> and <strong>SCSS</strong>.</p>
+<p>Since you have ended up here, I am sure you appreciate a bold and beautiful brew. </p>
 <p>Look at what this theme is capable to do on the features page, and see a beautiful contacts page example below.</p>
 
       </p>
@@ -244,130 +244,7 @@
 </div>
 
 
-<div class="mt-5 align-items-center"><h1 style="text-align: center;">How to use this theme</h1>
-<h2 id="quick-start-how-to-install-">Quick start: how to install 📥</h2>
-<ol>
-<li>
-<p>Install hugo extended, follow <a href="https://gohugo.io/installation/">the official installation guide</a>. For using this theme you <strong>DO NOT NEED</strong> to execute <code>hugo new site</code>, as you will be cloning an example site in step 2.</p>
-</li>
-<li>
-<p>Get <a href="https://github.com/ololiuhqui/magnolia-free-hugo-theme/releases/latest">the latest version of the example site</a>. Download the archive named example-site, it will automatically come with a compatible version of the magnolia theme.</p>
-</li>
-<li>
-<p>The site configurations will be found in <code>config/_default</code>. The main configuration file is <code>config/_default/config.toml</code>, but most variables are overwritten or defined by the individual language configuration files (eg. <code>config/_default/languages/.en.toml</code>)</p>
-</li>
-<li>
-<p>Move to your site directory and see the website preview with <code>hugo serve -D</code></p>
-</li>
-</ol>
-<h2 id="how-to-update-">How to update ♻</h2>
-<ul>
-<li>
-<p>Move into the theme folder <code>cd themes/magnolia</code></p>
-</li>
-<li>
-<p>Run <code>git checkout &lt;version-tag&gt;</code>. Choose the version tag from the <a href="https://github.com/ololiuhqui/magnolia-free-hugo-theme/releases">releases page</a>. e.g <code>git checkout v2.0.0</code>.</p>
-</li>
-</ul>
-<p>Please check the releases page to make sure the new version of the theme is compatible with your current example-site release. Refer to <a href="https://semver.org/">Semantic Versioning 2.0.0 | Semantic Versioning</a>.</p>
-<h2 id="how-to-customize-">How to customize 🎨</h2>
-<ul>
-<li>
-<p>Use your preferred color palette by modifying the Bootstrap variables in <code>assets/scss/custom-variables.scss</code>.</p>
-</li>
-<li>
-<p>Change the config files in <code>/config/_default</code> and <code>/config/_default/languages</code> adding your own elements to the pages. You can change the page names there as well.</p>
-</li>
-<li>
-<p>Edit the homepage content in <code>content/&lt;language&gt;/_index.html</code>, markdown supported.</p>
-</li>
-<li>
-<p>Edit pages names, slugs and metadescriptions in <code>content/&lt;language&gt;/pages/&lt;page&gt;/index.html</code>.</p>
-</li>
-<li>
-<p>Change the images of the website from the <code>content/&lt;language&gt;/pages/&lt;page&gt;/&lt;image&gt;</code> folders (pages and posts use <a href="https://gohugo.io/content-management/page-bundles/">Page bundles</a>).</p>
-</li>
-<li>
-<p>Add your own favicon, background and default meta-image (the image used in SEO) in <code>assets/img</code>. These files can be of any extension but must have the same name of the ones currently in the example site assets directory.</p>
-</li>
-</ul>
-<h2 id="how-to-manage-posts-">How to manage posts ✏️</h2>
-<h3 id="enabledisable-blog">Enable/Disable Blog</h3>
-<p><em>Wait, you told me this theme was noob friendly, I don&rsquo;t wanna deal with all the blog stuff!</em> <br/>
-<em>I need a simple landing page and all this blog feature is something I don&rsquo;t care about!</em></p>
-<p><strong>If you don&rsquo;t need posts you can disable the blog part of the theme entirely from within the config files and just use this theme as a simple landing site</strong></p>
-<ul>
-<li>To disable <em>tags only</em> rendering and indexing for the entire site -&gt; <code>config.toml</code> uncomment <code>#disableKinds = ['taxonomy', 'term']</code>.</li>
-<li>To disable <em>post and tags</em> rendering and indexing for the entire site -&gt; <code>config.toml</code> uncomment <code>#disableKinds = ['taxonomy', 'term']</code> and <code>#ignoreFiles= ['posts/*']</code>.</li>
-</ul>
-<h3 id="content-organization">Content organization</h3>
-<p>The <code>/content</code> folder contains different types of content, the content organization mimicts the site structure.</p>
-<pre tabindex="0"><code>content
-├── en
-│   ├── _index.md
-│   ├── pages
-│   ├── posts
-│   ├── profile.jpeg
-│   └── tags
-└── it
-    ├── _index.md
-    ├── pages
-    ├── posts
-    ├── profile.jpeg
-    └── tags
-</code></pre><p>For each language, you will find yourself in front of the homepage <code>_index.md</code> and the image used for the homepage presentation section (<code>profile.jpeg</code>). The other directories will contain exactly what you expect.</p>
-<p><code>pages</code>= normal website pages (office, services etc).
-<code>posts</code>= site posts.
-<code>tags</code> = custom tags.</p>
-<h4 id="posts">Posts</h4>
-<ul>
-<li>Create a new post with: <code>hugo new --kind post-bundle content/&lt;lang&gt;/posts/&lt;post-name&gt;</code>. This will be its very simple structure:</li>
-</ul>
-<pre tabindex="0"><code>content/en/posts
-├── a-poem-about-flowers
-│   ├── images
-│   │   └── featured.jpg
-│   └── index.md
-</code></pre><ul>
-<li>
-<p>Edit the metadata in <code>index.md</code> and add your post content below.</p>
-</li>
-<li>
-<p>Add a post featured image by subsituting the <code>featured.webp</code> placeholder in <code>/images</code>. The featured image has to be called &ldquo;featured&rdquo; but can be of any extension. If you wish you can remove the placeholder to have a text-only post.</p>
-</li>
-</ul>
-<h4 id="tags">Tags</h4>
-<ol>
-<li>
-<p>One option is to automatically create tags by adding them to posts frontmatters.</p>
-</li>
-<li>
-<p>The second option is to create a new tag with: <code>hugo new --kind tag content/&lt;lang&gt;/tags/&lt;tag-name&gt;</code>. Creating tags this way will allow for a finer manipulation, you can translate tags here by giving the same translationKey in frontmatter in every different language. Hence having your posts sorted the same for each language and have tag pages translations available.</p>
-</li>
-</ol>
-<pre tabindex="0"><code>content/en/tags
-├── flowers
-│   └── _index.md
-</code></pre><p>For more on content organization refefer to <a href="https://gohugo.io/content-management/organization/">Content organization | Hugo</a>.</p>
-<h2 id="add-new-languages-">Add new languages 🚩</h2>
-<ol>
-<li>Head to <code>config/_default/languages</code>.</li>
-<li>Duplicate one of the language files, change the language tag, name of the file (en, it, fr etc): this should be compliant with <a href="https://gohugo.io/content-management/multilingual/">RFC 5646</a>. Use the <a href="https://gist.github.com/msikma/8912e62ed866778ff8cd">RFC 5646 Language Tags List</a> for a quicker setup.</li>
-<li>Translate the variables values inside the <code>.toml</code> file accordingly to the language.</li>
-<li>In the <code>/content</code> directory, duplicate one of the language folders and change the name accordingly to your new language as in step 2.</li>
-<li>For each of the <code>.html</code> file in <code>/content/pages</code>, you can change <code>title</code> and <code>slug</code> freely. <code>translationKey</code> should remain untouched or should be changed in every language page file. I strongly suggest you to translate the SEO here as well.</li>
-<li>For each of the <code>.md</code> files in <code>content/posts/&lt;my-post&gt;</code> translate the content and the frontmatter values you need (eg. <em>summary</em>).</li>
-</ol>
-<h2 id="custom-404-page">Custom 404 page</h2>
-<p>To add the custom 404 page and make it work on github pages, you will have to add it manually when building the site executing <code>hugo</code>. This is because github pages looks for a 404 template in the root directory of the project, you can therefore only have one single 404 page for all the languages. To create a symlink to the english 404 version, which will then be used as default 404 once hosting, after running <code>hugo</code> run <code>ln -s public/en/404/index.html public/404.html</code>.</p>
-<h2 id="remunerate-my-time-and-energy-">Remunerate my time and energy 💫</h2>
-<p><img src="https://img.shields.io/liberapay/receives/ololiuhqui" alt="Liberapay receiving">
-<img src="https://img.shields.io/github/sponsors/ololiuhqui" alt="GitHub Sponsors"></p>
-<p>Designing this theme and making it available for you took a lot of time and effort.</p>
-<p>The MIT license means that you are completely free to do whatevere you want with this theme, even <a href="https://opensource.org/license/MIT">make money from it!</a></p>
-<p>If you wish you can support me in several ways.</p>
-<p><strong><a href="/posts/why-donating-to-free-and-opensource-software-projects-is-important/">Why you should btw?</a></strong></p>
-</div>
+<div class="mt-5 align-items-center"></div>
 
 
 
