@@ -28,7 +28,7 @@
         >
           {{- range .Site.Menus.main }}
           <li class="nav-item">
-            <a class="nav-link nav-menu text-nowrap" href="{{ .URL }}">{{.Name}}</a>
+            <a class="nav-link nav-menu text-nowrap" href="{{ .Page.RelPermalink | default .URL }}">{{.Name}}</a>
           </li>
           {{ end }}
           <li class="vr ms-1 d-none d-lg-block"></li>
