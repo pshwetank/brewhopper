@@ -22,13 +22,12 @@ contentDir = "content/en"
 ### "Hey, I think I’ll keep you around. You’ve got a way with a coffee bean." - Blonde (Route 66)
 ___
 
-I built this theme with simplicity in mind, it is small and easily **customizable, responsive, modular and multilingual**. But it also leaves some space to further in-depth customization since it uses **Bootstrap** and **SCSS**.
-
-Look at what this theme is capable to do on the features page, and see a beautiful contacts page example below.
+Ever since I went down the rabbit hole of specialty coffee, it has opened up a whole new world for me. Whether you are a newbie in coffee or a fellow coffeeholic, I will try my best to share my experience on this journey.
+Trust me, once you are in, you are in. Its hard to go back from here. So join me in my everyday journey for that perfect cup of coffee.  
         """
-    mainButton = "Features"
+    mainButton = "My Favourite roasters"
     mainButtonRef = "features" # Just write the name or slug of the page here
-    secondButton = "Contacts"
+    secondButton = "My favourite cafes"
     secondButtonRef = "contacts" # Just write the name or slug of the page here
   # For the blog feed section (visible only if posts are rendered)
     blogTitle = "Interesting Stories"
@@ -87,12 +86,9 @@ Look at what this theme is capable to do on the features page, and see a beautif
   callToAction= "Get connected with us on social networks >"
       [[params.socials.link]]
         name = "github"
-        link = "https://github.com/ololiuhqui/magnolia-free-hugo-theme"
+        link = "https://github.com/pshwetank"
       [[params.socials.link]]
-        name = "linkedin"
-        link = ""
-      [[params.socials.link]]
-        name = "whatsapp"
+        name = "instagram"
         link = ""
       # You can add other socials here by copypasting the above section and
       # selecting the right name for the icon from here https://icons.getbootstrap.com/
