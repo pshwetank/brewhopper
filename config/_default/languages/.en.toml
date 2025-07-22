@@ -133,14 +133,14 @@ Trust me, once you are in, you are in. Its hard to go back from here. So join me
   url = "/"
   weight = 1
   [[menus.main]]
-  name = "Features"
+  name = "Roasters"
   url = "/features/"
   weight = 2
   [[menus.main]]
-  name = "The Office"
+  name = "Cafes"
   url = "/office/"
   weight = 3
   [[menus.main]]
-  name = "Contacts"
-  url = "/contacts/"
+  name = "Blogs"
+  url = "/posts/"
   weight = 4
